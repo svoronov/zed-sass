@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon/sass.svg" width="64" height="64" alt="Sass">
+</p>
+
 # Sass Extension for Zed
 
 A [Zed](https://zed.dev) extension that adds support for the **indented Sass syntax** (`.sass` files).
