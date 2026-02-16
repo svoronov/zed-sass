@@ -1,0 +1,18 @@
+id = "sass"
+name = "Sass"
+description = "Indented Sass (.sass) syntax highlighting and language support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Serhii Voronov"]
+repository = "https://github.com/serhiivoronov/zed-sass"
+
+[grammars.sass]
+repository = "https://github.com/bajrangCoder/tree-sitter-sass"
+rev = "fb280c41b070657e4ff4d4e5e6eea6cb19efd9b8"
+
+[language_servers.some-sass-lsp]
+name = "Some Sass Language Server"
+languages = ["SASS"]
+
+[language_servers.some-sass-lsp.language_ids]
+"SASS" = "sass"
