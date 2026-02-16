@@ -116,9 +116,9 @@
   (function_name) @function.builtin)
 
 ; Selectors
-(tag_name) @tag
-(class_name) @attribute
-(id_name) @attribute
+(tag_name) @variable
+(class_name) @constant
+(id_name) @constant
 (placeholder_name) @attribute
 (nesting_selector) @punctuation.special
 (universal_selector) @tag
